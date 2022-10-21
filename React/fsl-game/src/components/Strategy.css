@@ -1,0 +1,2264 @@
+body, html{
+    width: 99%;
+    height: 99%;
+    display: flex;
+}
+
+.div-all-strategy{
+    width: 99%;
+    height: 99%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div1-up-strategy{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+
+
+.div-up-tactics1-strategy{
+    width: 30%;
+    height: 100%;
+    font-size: 28px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics1-strategy1-name-Teamstrategy{
+    background-color: goldenrod;
+    width: 100%;
+    height: 18%;
+    font-size: 28px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+.div-tactics1-strategy-1{
+    background-color: lightgoldenrodyellow;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics1-strategy-click{
+    width: 10%;
+    height: 100%;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics1-strategy{
+    width: 90%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics2-strategy-2{
+    background-color: darkkhaki;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics2-strategy-click{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics2-strategy{
+    width: 90%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics3-strategy-3{
+    background-color: lightgoldenrodyellow;
+    width: 100%;
+    height: 20%;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics3-strategy-click{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics3-strategy{
+    width: 90%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics4-strategy-4{
+    background-color: darkkhaki;
+    width: 100%;
+    height: 20%;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics4-strategy-click{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics4-strategy{
+    width: 90%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics5-strategy-5{
+    background-color: lightgoldenrodyellow;
+    width: 100%;
+    height: 20%;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics5-strategy-click{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics5-strategy{
+    width: 90%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div-up-tactics2-strategy{
+    width: 30%;
+    height: 100%;
+    font-size: 18px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics2-strategy1{
+    background-color: lightgoldenrodyellow;
+    width: 100%;
+    height: 50%;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.div-tactics2-strategy1-name-div1{
+    background-color: goldenrod;
+    width: 100%;
+    height: 30%;
+    font-size: 28px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics2-strategy1-buttons-div1{
+    width: 100%;
+    height: 70%;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics2-strategy1-buttons1{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+.div-tactics2-strategy1-click1{
+    width: 10%;
+    height: 100%;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics2-strategy1-tactic1{
+    width: 40%;
+    height: 100%;
+    font-size: 28px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics2-strategy1-click2{
+    width: 10%;
+    height: 100%;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics2-strategy1-tactic2{
+    width: 40%;
+    height: 100%;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+.div-tactics2-strategy2{
+    background-color: darkkhaki;
+    width: 100%;
+    height: 50%;
+    font-size: 28px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.div-tactics2-strategy2-name-div1{
+    background-color: goldenrod;
+    width: 100%;
+    height: 30%;
+    font-size: 28px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics2-strategy2-buttons-div1{
+    width: 100%;
+    height: 70%;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics2-strategy2-buttons1{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+.div-tactics2-strategy2-click1{
+    width: 10%;
+    height: 100%;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics2-strategy2-tactic1{
+    width: 40%;
+    height: 100%;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics2-strategy2-click2{
+    width: 10%;
+    height: 100%;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics2-strategy2-tactic2{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+.div-up-tactics3-strategy{
+    width: 30%;
+    height: 100%;
+    font-size: 18px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics3-strategy1{
+    width: 100%;
+    height: 50%;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.div-tactics3-strategy1-name-div1{
+    background-color: goldenrod;
+    width: 100%;
+    height: 30%;
+    font-size: 28px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics3-strategy1-buttons-div1{
+    background-color: lightgoldenrodyellow;
+    width: 100%;
+    height: 70%;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics3-strategy1-buttons1{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+.div-tactics3-strategy1-click1{
+    width: 10%;
+    height: 100%;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics3-strategy1-tactic1{
+    width: 40%;
+    height: 100%;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics3-strategy1-click2{
+    width: 10%;
+    height: 100%;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics3-strategy1-tactic2{
+    width: 40%;
+    height: 100%;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.div-tactics3-strategy2{
+    width: 100%;
+    height: 50%;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.div-tactics3-strategy2-name-div1{
+    background-color: goldenrod;
+    width: 100%;
+    height: 30%;
+    font-size: 28px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics3-strategy2-buttons-div1{
+    background-color: darkkhaki;
+    width: 100%;
+    height: 70%;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics3-strategy2-buttons1{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics3-strategy2-click1{
+    width: 10%;
+    height: 100%;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics3-strategy2-tactic1{
+    width: 40%;
+    height: 100%;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics3-strategy2-click2{
+    width: 10%;
+    height: 100%;
+    font-size: 20px;
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics3-strategy2-tactic2{
+    width: 40%;
+    height: 100%;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.div2-mid-strategy{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-scroll1-strategy{
+    background-color: goldenrod;
+    width: 30%;
+    height: 90%;
+    margin: 10px;
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-scroll1-strategy{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.div-scroll1-player1-strategy{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px white;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-scroll1-player1-strategy:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-scroll1-click1-strategy{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll1-name1-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll1-surname1-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll1-player2-strategy{
+    background-color: darkkhaki;
+    border: solid 1px white;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-scroll1-player2-strategy:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-scroll1-click2-strategy{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll1-name2-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll1-surname2-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div-scroll1-player3-strategy{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px white;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-scroll1-player3-strategy:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-scroll1-click3-strategy{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll1-name3-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll1-surname3-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll1-player4-strategy{
+    background-color: darkkhaki;
+    border: solid 1px white;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-scroll1-player4-strategy:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-scroll1-click4-strategy{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll1-name4-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll1-surname4-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll1-player5-strategy{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px white;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-scroll1-player5-strategy:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-scroll1-click5-strategy{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll1-name5-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll1-surname5-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll1-player6-strategy{
+    background-color: darkkhaki;
+    border: solid 1px white;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-scroll1-player6-strategy:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-scroll1-click6-strategy{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll1-name6-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll1-surname6-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll1-player7-strategy{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px white;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-scroll1-player7-strategy:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-scroll1-click7-strategy{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll1-name7-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll1-surname7-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll1-player8-strategy{
+    background-color: darkkhaki;
+    border: solid 1px white;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-scroll1-player8-strategy:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-scroll1-click8-strategy{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll1-name8-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll1-surname8-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll1-player9-strategy{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px white;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-scroll1-player9-strategy:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-scroll1-click9-strategy{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll1-name9-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll1-surname9-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll1-player10-strategy{
+    background-color: darkkhaki;
+    border: solid 1px white;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-scroll1-player10-strategy:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-scroll1-click10-strategy{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll1-name10-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll1-surname10-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll1-player11-strategy{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px white;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-scroll1-player11-strategy:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-scroll1-click11-strategy{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll1-name11-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll1-surname11-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+.div-mid-scroll2-strategy{
+    background-color: goldenrod;
+    width: 30%;
+    height: 90%;
+    margin: 10px;
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-scroll2-strategy{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.div-scroll2-player1-strategy{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px white;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-scroll2-player1-strategy:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-scroll2-click1-strategy{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll2-name1-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll2-surname1-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll2-player2-strategy{
+    background-color: darkkhaki;
+    border: solid 1px white;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-scroll2-player2-strategy:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-scroll2-click2-strategy{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll2-name2-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll2-surname2-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll2-player3-strategy{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px white;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-scroll2-player3-strategy:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-scroll2-click3-strategy{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll2-name3-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll2-surname3-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll2-player4-strategy{
+    background-color: darkkhaki;
+    border: solid 1px white;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-scroll2-player4-strategy:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-scroll2-click4-strategy{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll2-name4-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll2-surname4-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll2-player5-strategy{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px white;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-scroll2-player5-strategy:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-scroll2-click5-strategy{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll2-name5-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll2-surname5-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll2-player6-strategy{
+    background-color: darkkhaki;
+    border: solid 1px white;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-scroll2-player6-strategy:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-scroll2-click6-strategy{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll2-name6-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll2-surname6-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll2-player7-strategy{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px white;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-scroll2-player7-strategy:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-scroll2-click7-strategy{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll2-name7-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll2-surname7-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll2-player8-strategy{
+    background-color: darkkhaki;
+    border: solid 1px white;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-scroll2-player8-strategy:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-scroll2-click8-strategy{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll2-name8-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll2-surname8-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll2-player9-strategy{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px white;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-scroll2-player9-strategy:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-scroll2-click9-strategy{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll2-name9-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll2-surname9-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll2-player10-strategy{
+    background-color: darkkhaki;
+    border: solid 1px white;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-scroll2-player10-strategy:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-scroll2-click10-strategy{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll2-name10-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll2-surname10-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll2-player11-strategy{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px white;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-scroll2-player11-strategy:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-scroll2-click11-strategy{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll2-name11-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll2-surname11-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+.div-mid-scroll3-strategy{
+    background-color: goldenrod;
+    width: 30%;
+    height: 90%;
+    margin: 10px;
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-scroll3-strategy{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.div-scroll3-player1-strategy{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px white;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-scroll3-player1-strategy:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-scroll3-click1-strategy{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll3-name1-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll3-surname1-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll3-player2-strategy{
+    background-color: darkkhaki;
+    border: solid 1px white;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-scroll3-player2-strategy:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-scroll3-click2-strategy{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll3-name2-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll3-surname2-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll3-player3-strategy{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px white;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-scroll3-player3-strategy:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-scroll3-click3-strategy{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll3-name3-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll3-surname3-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll3-player4-strategy{
+    background-color: darkkhaki;
+    border: solid 1px white;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-scroll3-player4-strategy:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-scroll3-click4-strategy{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll3-name4-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll3-surname4-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll3-player5-strategy{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px white;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-scroll3-player5-strategy:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-scroll3-click5-strategy{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll3-name5-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll3-surname5-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll3-player6-strategy{
+    background-color: darkkhaki;
+    border: solid 1px white;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-scroll3-player6-strategy:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-scroll3-click6-strategy{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll3-name6-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll3-surname6-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll3-player7-strategy{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px white;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-scroll3-player7-strategy:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-scroll3-click7-strategy{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll3-name7-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll3-surname7-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll3-player8-strategy{
+    background-color: darkkhaki;
+    border: solid 1px white;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-scroll3-player8-strategy:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-scroll3-click8-strategy{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll3-name8-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll3-surname8-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll3-player9-strategy{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px white;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-scroll3-player9-strategy:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-scroll3-click9-strategy{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll3-name9-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll3-surname9-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll3-player10-strategy{
+    background-color: darkkhaki;
+    border: solid 1px white;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-scroll3-player10-strategy:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-scroll3-click10-strategy{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll3-name10-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll3-surname10-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll3-player11-strategy{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px white;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-scroll3-player11-strategy:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-scroll3-click11-strategy{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll3-name11-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-scroll3-surname11-strategy{
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+.div3-down-strategy{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.buttons-understand-strategy{
+    width: 150px;
+    height: 50px;
+    background-color: darkcyan;
+    border-radius: 5px;
+    margin: 0px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+
+.buttons-understand-strategy:hover{
+    background-color: lightgray;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+}
+
+.buttons-strategy{
+    width: 300px;
+    height: 50px;
+    background-color: green;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+    
+.buttons-strategy:hover{
+    background-color: lightgray;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+.buttons-tactics-strategy{
+    width: 250px;
+    height: 40px;
+    background-color: darkcyan;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+    
+.buttons-tactics-strategy:hover{
+    background-color: lightgray;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 21px;
+    color: black;
+}

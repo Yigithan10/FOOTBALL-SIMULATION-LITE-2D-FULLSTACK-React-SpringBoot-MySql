@@ -1,0 +1,70 @@
+div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+body, html{
+    background-image: url("../photo/arkaplan1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.div-all-language-buttons{
+    width: 99%;
+    height: 99%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+  
+.div-left-lang-buttons{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+  
+.div-empty-lang{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+  
+.div-right-lang-buttons{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+  
+.buttons-language{
+    width: 250px;
+    height: 60px;
+    background-color: green;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+  
+.buttons-language:hover{
+    background-color: lightgray;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}

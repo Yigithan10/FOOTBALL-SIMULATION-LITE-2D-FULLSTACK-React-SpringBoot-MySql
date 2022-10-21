@@ -1,0 +1,4878 @@
+div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+p{
+    font-size: 30px;
+}
+
+.div-all-playmatchmenuplayers-buttons{
+    width: 99%;
+    height: 99%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-up-playmatchmenuplayers{
+    color: white;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-up-team1name-playmatchmenuplayers{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.div-up-team1score-playmatchmenuplayers{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-up-scorematch-playmatchmenuplayers{
+    border: solid 3px darkcyan;
+    background-color: lightseagreen;
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-up-team2score-playmatchmenuplayers{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-up-team2name-playmatchmenuplayers{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+.div-mid-buttons-screen-playmatchmenuplayers{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-button1-screen-playmatchmenuplayers{
+    width: 33%;
+    height: 90%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.div-mid-button2-screen-playmatchmenuplayers{
+    width: 33%;
+    height: 90%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.div-mid-button3-screen-playmatchmenuplayers{
+    width: 33%;
+    height: 90%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.div-mid-players-playmatchmenu-123{
+    width: 100%;
+    height: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team1-players-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.div-mid-team1-txt-playmatchmenuplayers{
+    background-color: goldenrod;
+    border: solid 1px black;
+    width: 90%;
+    height: 9%;
+    font-size: 20px;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-txt-position-playmatchmenuplayers{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-txt-name-playmatchmenuplayers{
+    width: 23%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-txt-surname-playmatchmenuplayers{
+    width: 23%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-txt-rating-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-txt-energy-playmatchmenuplayers{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-txt-cards-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player1-playmatchmenuplayers{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 90%;
+    height: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team1-player1-position-playmatchmenuplayers{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player1-name-playmatchmenuplayers{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-mid-team1-player1-empty-playmatchmenuplayers{
+    width: 4%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player1-surname-playmatchmenuplayers{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-mid-team1-player1-rating-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player1-energy-playmatchmenuplayers{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player1-cards-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team1-player1-yellowCardBox-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player1-redCardBox-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player2-playmatchmenuplayers{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 90%;
+    height: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team1-player2-position-playmatchmenuplayers{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player2-name-playmatchmenuplayers{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-mid-team1-player2-empty-playmatchmenuplayers{
+    width: 4%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player2-surname-playmatchmenuplayers{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-mid-team1-player2-rating-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player2-energy-playmatchmenuplayers{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player2-cards-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team1-player2-yellowCardBox-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player2-redCardBox-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player3-playmatchmenuplayers{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 90%;
+    height: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team1-player3-position-playmatchmenuplayers{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player3-name-playmatchmenuplayers{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-mid-team1-player3-empty-playmatchmenuplayers{
+    width: 4%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player3-surname-playmatchmenuplayers{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-mid-team1-player3-rating-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player3-energy-playmatchmenuplayers{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player3-cards-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team1-player3-yellowCardBox-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player3-redCardBox-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.div-mid-team1-player4-playmatchmenuplayers{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 90%;
+    height: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team1-player4-position-playmatchmenuplayers{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player4-name-playmatchmenuplayers{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-mid-team1-player4-empty-playmatchmenuplayers{
+    width: 4%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player4-surname-playmatchmenuplayers{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-mid-team1-player4-rating-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player4-energy-playmatchmenuplayers{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player4-cards-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team1-player4-yellowCardBox-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player4-redCardBox-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player5-playmatchmenuplayers{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 90%;
+    height: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team1-player5-position-playmatchmenuplayers{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player5-name-playmatchmenuplayers{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-mid-team1-player5-empty-playmatchmenuplayers{
+    width: 4%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player5-surname-playmatchmenuplayers{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-mid-team1-player5-rating-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player5-energy-playmatchmenuplayers{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player5-cards-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team1-player5-yellowCardBox-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player5-redCardBox-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player6-playmatchmenuplayers{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 90%;
+    height: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team1-player6-position-playmatchmenuplayers{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player6-name-playmatchmenuplayers{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-mid-team1-player6-empty-playmatchmenuplayers{
+    width: 4%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player6-surname-playmatchmenuplayers{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-mid-team1-player6-rating-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player6-energy-playmatchmenuplayers{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player6-cards-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team1-player6-yellowCardBox-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player6-redCardBox-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player7-playmatchmenuplayers{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 90%;
+    height: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team1-player7-position-playmatchmenuplayers{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player7-name-playmatchmenuplayers{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-mid-team1-player7-empty-playmatchmenuplayers{
+    width: 4%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player7-surname-playmatchmenuplayers{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-mid-team1-player7-rating-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player7-energy-playmatchmenuplayers{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player7-cards-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team1-player7-yellowCardBox-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player7-redCardBox-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player8-playmatchmenuplayers{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 90%;
+    height: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team1-player8-position-playmatchmenuplayers{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player8-name-playmatchmenuplayers{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-mid-team1-player8-empty-playmatchmenuplayers{
+    width: 4%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player8-surname-playmatchmenuplayers{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-mid-team1-player8-rating-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player8-energy-playmatchmenuplayers{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player8-cards-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team1-player8-yellowCardBox-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player8-redCardBox-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player9-playmatchmenuplayers{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 90%;
+    height: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team1-player9-position-playmatchmenuplayers{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player9-name-playmatchmenuplayers{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-mid-team1-player9-empty-playmatchmenuplayers{
+    width: 4%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player9-surname-playmatchmenuplayers{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-mid-team1-player9-rating-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player9-energy-playmatchmenuplayers{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player9-cards-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team1-player9-yellowCardBox-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player9-redCardBox-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player10-playmatchmenuplayers{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 90%;
+    height: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team1-player10-position-playmatchmenuplayers{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player10-name-playmatchmenuplayers{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-mid-team1-player10-empty-playmatchmenuplayers{
+    width: 4%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player10-surname-playmatchmenuplayers{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-mid-team1-player10-rating-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player10-energy-playmatchmenuplayers{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player10-cards-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team1-player10-yellowCardBox-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player10-redCardBox-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player11-playmatchmenuplayers{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 90%;
+    height: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team1-player11-position-playmatchmenuplayers{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player11-name-playmatchmenuplayers{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-mid-team1-player11-empty-playmatchmenuplayers{
+    width: 4%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player11-surname-playmatchmenuplayers{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-mid-team1-player11-rating-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player11-energy-playmatchmenuplayers{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player11-cards-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team1-player11-yellowCardBox-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team1-player11-redCardBox-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+.div-homeTeam-gk1-yellowCard{
+    background-color: yellow;
+    width: 30%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-homeTeam-gk1-redCard{
+    background-color: red;
+    width: 30%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-homeTeam-lb1-yellowCard{
+    background-color: yellow;
+    width: 30%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-homeTeam-lb1-redCard{
+    background-color: red;
+    width: 30%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-homeTeam-cb1-yellowCard{
+    background-color: yellow;
+    width: 30%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-homeTeam-cb1-redCard{
+    background-color: red;
+    width: 30%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-homeTeam-cb2-yellowCard{
+    background-color: yellow;
+    width: 30%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-homeTeam-cb2-redCard{
+    background-color: red;
+    width: 30%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-homeTeam-rb1-yellowCard{
+    background-color: yellow;
+    width: 30%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-homeTeam-rb1-redCard{
+    background-color: red;
+    width: 30%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-homeTeam-dm1-yellowCard{
+    background-color: yellow;
+    width: 30%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-homeTeam-dm1-redCard{
+    background-color: red;
+    width: 30%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-homeTeam-cm1-yellowCard{
+    background-color: yellow;
+    width: 30%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-homeTeam-cm1-redCard{
+    background-color: red;
+    width: 30%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-homeTeam-cm2-yellowCard{
+    background-color: yellow;
+    width: 30%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-homeTeam-cm2-redCard{
+    background-color: red;
+    width: 30%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-homeTeam-lw1-yellowCard{
+    background-color: yellow;
+    width: 30%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-homeTeam-lw1-redCard{
+    background-color: red;
+    width: 30%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-homeTeam-rw1-yellowCard{
+    background-color: yellow;
+    width: 30%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-homeTeam-rw1-redCard{
+    background-color: red;
+    width: 30%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-homeTeam-st1-yellowCard{
+    background-color: yellow;
+    width: 30%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-homeTeam-st1-redCard{
+    background-color: red;
+    width: 30%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+.div-awayTeam-gk2-yellowCard{
+    background-color: yellow;
+    width: 30%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-awayTeam-gk2-redCard{
+    background-color: red;
+    width: 30%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-awayTeam-lb2-yellowCard{
+    background-color: yellow;
+    width: 30%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-awayTeam-lb2-redCard{
+    background-color: red;
+    width: 30%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-awayTeam-cb4-yellowCard{
+    background-color: yellow;
+    width: 30%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-awayTeam-cb4-redCard{
+    background-color: red;
+    width: 30%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-awayTeam-cb3-yellowCard{
+    background-color: yellow;
+    width: 30%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-awayTeam-cb3-redCard{
+    background-color: red;
+    width: 30%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-awayTeam-rb2-yellowCard{
+    background-color: yellow;
+    width: 30%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-awayTeam-rb2-redCard{
+    background-color: red;
+    width: 30%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-awayTeam-dm2-yellowCard{
+    background-color: yellow;
+    width: 30%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-awayTeam-dm2-redCard{
+    background-color: red;
+    width: 30%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-awayTeam-cm4-yellowCard{
+    background-color: yellow;
+    width: 30%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-awayTeam-cm4-redCard{
+    background-color: red;
+    width: 30%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-awayTeam-cm3-yellowCard{
+    background-color: yellow;
+    width: 30%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-awayTeam-cm3-redCard{
+    background-color: red;
+    width: 30%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-awayTeam-lw2-yellowCard{
+    background-color: yellow;
+    width: 30%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-awayTeam-lw2-redCard{
+    background-color: red;
+    width: 30%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-awayTeam-rw2-yellowCard{
+    background-color: yellow;
+    width: 30%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-awayTeam-rw2-redCard{
+    background-color: red;
+    width: 30%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-awayTeam-st2-yellowCard{
+    background-color: yellow;
+    width: 30%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-awayTeam-st2-redCard{
+    background-color: red;
+    width: 30%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+.div-mid-team2-players-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.div-mid-team2-txt-playmatchmenuplayers{
+    background-color: goldenrod;
+    border: solid 1px black;
+    width: 90%;
+    height: 9%;
+    font-size: 20px;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-txt-position-playmatchmenuplayers{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-txt-name-playmatchmenuplayers{
+    width: 23%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-txt-surname-playmatchmenuplayers{
+    width: 23%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-txt-rating-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-txt-energy-playmatchmenuplayers{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-txt-cards-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player1-playmatchmenuplayers{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 90%;
+    height: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team2-player1-position-playmatchmenuplayers{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player1-name-playmatchmenuplayers{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-mid-team2-player1-empty-playmatchmenuplayers{
+    width: 4%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player1-surname-playmatchmenuplayers{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-mid-team2-player1-rating-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player1-energy-playmatchmenuplayers{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player1-cards-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team2-player1-yellowCardBox-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player1-redCardBox-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player2-playmatchmenuplayers{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 90%;
+    height: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team2-player2-position-playmatchmenuplayers{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player2-name-playmatchmenuplayers{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-mid-team2-player2-empty-playmatchmenuplayers{
+    width: 4%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player2-surname-playmatchmenuplayers{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-mid-team2-player2-rating-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player2-energy-playmatchmenuplayers{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player2-cards-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team2-player2-yellowCardBox-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player2-redCardBox-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player3-playmatchmenuplayers{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 90%;
+    height: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team2-player3-position-playmatchmenuplayers{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player3-name-playmatchmenuplayers{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-mid-team2-player3-empty-playmatchmenuplayers{
+    width: 4%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player3-surname-playmatchmenuplayers{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-mid-team2-player3-rating-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player3-energy-playmatchmenuplayers{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player3-cards-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team2-player3-yellowCardBox-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player3-redCardBox-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player4-playmatchmenuplayers{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 90%;
+    height: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team2-player4-position-playmatchmenuplayers{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player4-name-playmatchmenuplayers{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-mid-team2-player4-empty-playmatchmenuplayers{
+    width: 4%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player4-surname-playmatchmenuplayers{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-mid-team2-player4-rating-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player4-energy-playmatchmenuplayers{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player4-cards-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team2-player4-yellowCardBox-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player4-redCardBox-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player5-playmatchmenuplayers{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 90%;
+    height: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team2-player5-position-playmatchmenuplayers{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player5-name-playmatchmenuplayers{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-mid-team2-player5-empty-playmatchmenuplayers{
+    width: 4%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player5-surname-playmatchmenuplayers{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-mid-team2-player5-rating-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player5-energy-playmatchmenuplayers{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player5-cards-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team2-player5-yellowCardBox-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player5-redCardBox-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player6-playmatchmenuplayers{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 90%;
+    height: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team2-player6-position-playmatchmenuplayers{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player6-name-playmatchmenuplayers{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-mid-team2-player6-empty-playmatchmenuplayers{
+    width: 4%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player6-surname-playmatchmenuplayers{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-mid-team2-player6-rating-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player6-energy-playmatchmenuplayers{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player6-cards-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team2-player6-yellowCardBox-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player6-redCardBox-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player7-playmatchmenuplayers{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 90%;
+    height: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team2-player7-position-playmatchmenuplayers{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player7-name-playmatchmenuplayers{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-mid-team2-player7-empty-playmatchmenuplayers{
+    width: 4%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player7-surname-playmatchmenuplayers{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-mid-team2-player7-rating-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player7-energy-playmatchmenuplayers{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player7-cards-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team2-player7-yellowCardBox-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player7-redCardBox-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player8-playmatchmenuplayers{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 90%;
+    height: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team2-player8-position-playmatchmenuplayers{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player8-name-playmatchmenuplayers{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-mid-team2-player8-empty-playmatchmenuplayers{
+    width: 4%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player8-surname-playmatchmenuplayers{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-mid-team2-player8-rating-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player8-energy-playmatchmenuplayers{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player8-cards-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team2-player8-yellowCardBox-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player8-redCardBox-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player9-playmatchmenuplayers{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 90%;
+    height: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team2-player9-position-playmatchmenuplayers{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player9-name-playmatchmenuplayers{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-mid-team2-player9-empty-playmatchmenuplayers{
+    width: 4%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player9-surname-playmatchmenuplayers{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-mid-team2-player9-rating-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player9-energy-playmatchmenuplayers{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player9-cards-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team2-player9-yellowCardBox-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player9-redCardBox-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player10-playmatchmenuplayers{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 90%;
+    height: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team2-player10-position-playmatchmenuplayers{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player10-name-playmatchmenuplayers{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-mid-team2-player10-empty-playmatchmenuplayers{
+    width: 4%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player10-surname-playmatchmenuplayers{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-mid-team2-player10-rating-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player10-energy-playmatchmenuplayers{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player10-cards-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team2-player10-yellowCardBox-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player10-redCardBox-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player11-playmatchmenuplayers{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 90%;
+    height: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team2-player11-position-playmatchmenuplayers{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player11-name-playmatchmenuplayers{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-mid-team2-player11-empty-playmatchmenuplayers{
+    width: 4%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player11-surname-playmatchmenuplayers{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-mid-team2-player11-rating-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player11-energy-playmatchmenuplayers{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player11-cards-playmatchmenuplayers{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-team2-player11-yellowCardBox-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-team2-player11-redCardBox-playmatchmenuplayers{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+.div-mid-firsthalf-eventsmenu{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    font-size: 28px;
+    font-style: italic;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.div-mid-txt-first-eventsmenu{
+    background-color: goldenrod;
+    border: solid 2px black;
+    width: 90%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event1-first-eventsmenu{
+    background-color: lightgoldenrodyellow;
+    border: solid 2px black;
+    width: 90%;
+    height: 10%;
+    display: flex;
+    font-size: 18px;
+    font-style: normal;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-event1-firstdk-eventsmenu{
+    width: 6%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event1-firsteventBox-eventsmenu{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-event1-firstevent-eventsmenu{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event1-CardsBox-eventsmenu{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event1-yellowCardBox-eventsmenu{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event1-redCardBox-eventsmenu{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-event1-yellowCard-eventsmenu{
+    background-color: yellow;
+    width: 50%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event1-redCard-eventsmenu{
+    background-color: red;
+    width: 50%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event1-firstname-eventsmenu{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-mid-event1-nameSurnameEmpty-eventsmenu{
+    width: 4%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event1-firstsurname-eventsmenu{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-mid-event1-firstteam-eventsmenu{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event2-first-eventsmenu{
+    background-color: darkkhaki;
+    border: solid 2px black;
+    width: 90%;
+    height: 10%;
+    display: flex;
+    font-size: 18px;
+    font-style: normal;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-event2-firstdk-eventsmenu{
+    width: 6%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event2-firsteventBox-eventsmenu{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event2-firstevent-eventsmenu{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event2-CardsBox-eventsmenu{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event2-yellowCardBox-eventsmenu{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event2-redCardBox-eventsmenu{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-event2-yellowCard-eventsmenu{
+    background-color: yellow;
+    width: 50%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event2-redCard-eventsmenu{
+    background-color: red;
+    width: 50%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event2-firstname-eventsmenu{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-mid-event2-nameSurnameEmpty-eventsmenu{
+    width: 4%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event2-firstsurname-eventsmenu{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-mid-event2-firstteam-eventsmenu{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event3-first-eventsmenu{
+    background-color: lightgoldenrodyellow;
+    border: solid 2px black;
+    width: 90%;
+    height: 10%;
+    display: flex;
+    font-size: 18px;
+    font-style: normal;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-event3-firstdk-eventsmenu{
+    width: 6%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event3-firsteventBox-eventsmenu{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event3-firstevent-eventsmenu{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event3-CardsBox-eventsmenu{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event3-yellowCardBox-eventsmenu{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event3-redCardBox-eventsmenu{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-event3-yellowCard-eventsmenu{
+    background-color: yellow;
+    width: 50%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event3-redCard-eventsmenu{
+    background-color: red;
+    width: 50%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event3-firstname-eventsmenu{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-mid-event3-nameSurnameEmpty-eventsmenu{
+    width: 4%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event3-firstsurname-eventsmenu{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-mid-event3-firstteam-eventsmenu{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event4-first-eventsmenu{
+    background-color: darkkhaki;
+    border: solid 2px black;
+    width: 90%;
+    height: 10%;
+    display: flex;
+    font-size: 18px;
+    font-style: normal;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-event4-firstdk-eventsmenu{
+    width: 6%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event4-firsteventBox-eventsmenu{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event4-firstevent-eventsmenu{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event4-CardsBox-eventsmenu{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event4-yellowCardBox-eventsmenu{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event4-redCardBox-eventsmenu{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-event4-yellowCard-eventsmenu{
+    background-color: yellow;
+    width: 50%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event4-redCard-eventsmenu{
+    background-color: red;
+    width: 50%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event4-firstname-eventsmenu{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-mid-event4-nameSurnameEmpty-eventsmenu{
+    width: 4%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event4-firstsurname-eventsmenu{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-mid-event4-firstteam-eventsmenu{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event5-first-eventsmenu{
+    background-color: lightgoldenrodyellow;
+    border: solid 2px black;
+    width: 90%;
+    height: 10%;
+    display: flex;
+    font-size: 18px;
+    font-style: normal;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-event5-firstdk-eventsmenu{
+    width: 6%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event5-firsteventBox-eventsmenu{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event5-firstevent-eventsmenu{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event5-CardsBox-eventsmenu{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event5-yellowCardBox-eventsmenu{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event5-redCardBox-eventsmenu{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-event5-yellowCard-eventsmenu{
+    background-color: yellow;
+    width: 50%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event5-redCard-eventsmenu{
+    background-color: red;
+    width: 50%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event5-firstname-eventsmenu{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-mid-event5-nameSurnameEmpty-eventsmenu{
+    width: 4%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event5-firstsurname-eventsmenu{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-mid-event5-firstteam-eventsmenu{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event6-first-eventsmenu{
+    background-color: darkkhaki;
+    border: solid 2px black;
+    width: 90%;
+    height: 10%;
+    display: flex;
+    font-size: 18px;
+    font-style: normal;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-event6-firstdk-eventsmenu{
+    width: 6%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event6-firsteventBox-eventsmenu{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event6-firstevent-eventsmenu{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event6-CardsBox-eventsmenu{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event6-yellowCardBox-eventsmenu{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event6-redCardBox-eventsmenu{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-event6-yellowCard-eventsmenu{
+    background-color: yellow;
+    width: 50%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event6-redCard-eventsmenu{
+    background-color: red;
+    width: 50%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event6-nameSurnameEmpty-eventsmenu{
+    width: 4%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event6-firstname-eventsmenu{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-mid-event6-firstsurname-eventsmenu{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-mid-event6-firstteam-eventsmenu{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event7-first-eventsmenu{
+    background-color: lightgoldenrodyellow;
+    border: solid 2px black;
+    width: 90%;
+    height: 10%;
+    display: flex;
+    font-size: 18px;
+    font-style: normal;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-event7-firstdk-eventsmenu{
+    width: 6%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event7-firsteventBox-eventsmenu{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event7-firstevent-eventsmenu{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event7-CardsBox-eventsmenu{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event7-yellowCardBox-eventsmenu{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event7-redCardBox-eventsmenu{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-event7-yellowCard-eventsmenu{
+    background-color: yellow;
+    width: 50%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event7-redCard-eventsmenu{
+    background-color: red;
+    width: 50%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event7-firstname-eventsmenu{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-mid-event7-nameSurnameEmpty-eventsmenu{
+    width: 4%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event7-firstsurname-eventsmenu{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-mid-event7-firstteam-eventsmenu{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div-mid-secondhalf-eventsmenu{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    font-size: 28px;
+    font-style: italic;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.div-mid-txt-second-eventsmenu{
+    background-color: goldenrod;
+    border: solid 2px black;
+    width: 90%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event1-second-eventsmenu{
+    background-color: lightgoldenrodyellow;
+    border: solid 2px black;
+    width: 90%;
+    height: 10%;
+    display: flex;
+    font-size: 18px;
+    font-style: normal;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-event1-seconddk-eventsmenu{
+    width: 6%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event1-secondeventBox-eventsmenu{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event1-secondevent-eventsmenu{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event8-CardsBox-eventsmenu{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event8-yellowCardBox-eventsmenu{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event8-redCardBox-eventsmenu{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-event8-yellowCard-eventsmenu{
+    background-color: yellow;
+    width: 50%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event8-redCard-eventsmenu{
+    background-color: red;
+    width: 50%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event1-secondname-eventsmenu{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-mid-event8-nameSurnameEmpty-eventsmenu{
+    width: 4%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event1-secondsurname-eventsmenu{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-mid-event1-secondteam-eventsmenu{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event2-second-eventsmenu{
+    background-color: darkkhaki;
+    border: solid 2px black;
+    width: 90%;
+    height: 10%;
+    display: flex;
+    font-size: 18px;
+    font-style: normal;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-event2-seconddk-eventsmenu{
+    width: 6%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event2-secondeventBox-eventsmenu{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event2-secondevent-eventsmenu{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event9-CardsBox-eventsmenu{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event9-yellowCardBox-eventsmenu{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event9-redCardBox-eventsmenu{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-event9-yellowCard-eventsmenu{
+    background-color: yellow;
+    width: 50%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event9-redCard-eventsmenu{
+    background-color: red;
+    width: 50%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event2-secondname-eventsmenu{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-mid-event9-nameSurnameEmpty-eventsmenu{
+    width: 4%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event2-secondsurname-eventsmenu{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-mid-event2-secondteam-eventsmenu{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event3-second-eventsmenu{
+    background-color: lightgoldenrodyellow;
+    border: solid 2px black;
+    width: 90%;
+    height: 10%;
+    display: flex;
+    font-size: 18px;
+    font-style: normal;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-event3-seconddk-eventsmenu{
+    width: 6%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event3-secondeventBox-eventsmenu{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event3-secondevent-eventsmenu{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event10-CardsBox-eventsmenu{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event10-yellowCardBox-eventsmenu{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event10-redCardBox-eventsmenu{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-event10-yellowCard-eventsmenu{
+    background-color: yellow;
+    width: 50%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event10-redCard-eventsmenu{
+    background-color: red;
+    width: 50%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event3-secondname-eventsmenu{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-mid-event10-nameSurnameEmpty-eventsmenu{
+    width: 4%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event3-secondsurname-eventsmenu{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-mid-event3-secondteam-eventsmenu{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event4-second-eventsmenu{
+    background-color: darkkhaki;
+    border: solid 2px black;
+    width: 90%;
+    height: 10%;
+    display: flex;
+    font-size: 18px;
+    font-style: normal;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-event4-seconddk-eventsmenu{
+    width: 6%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event4-secondeventBox-eventsmenu{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event4-secondevent-eventsmenu{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event11-CardsBox-eventsmenu{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event11-yellowCardBox-eventsmenu{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event11-redCardBox-eventsmenu{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-event11-yellowCard-eventsmenu{
+    background-color: yellow;
+    width: 50%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event11-redCard-eventsmenu{
+    background-color: red;
+    width: 50%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event4-secondname-eventsmenu{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-mid-event11-nameSurnameEmpty-eventsmenu{
+    width: 4%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event4-secondsurname-eventsmenu{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-mid-event4-secondteam-eventsmenu{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event5-second-eventsmenu{
+    background-color: lightgoldenrodyellow;
+    border: solid 2px black;
+    width: 90%;
+    height: 10%;
+    display: flex;
+    font-size: 18px;
+    font-style: normal;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-event5-seconddk-eventsmenu{
+    width: 6%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event5-secondeventBox-eventsmenu{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event5-secondevent-eventsmenu{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event12-CardsBox-eventsmenu{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event12-yellowCardBox-eventsmenu{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event12-redCardBox-eventsmenu{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-event12-yellowCard-eventsmenu{
+    background-color: yellow;
+    width: 50%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event12-redCard-eventsmenu{
+    background-color: red;
+    width: 50%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event5-secondname-eventsmenu{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-mid-event12-nameSurnameEmpty-eventsmenu{
+    width: 4%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event5-secondsurname-eventsmenu{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-mid-event5-secondteam-eventsmenu{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event6-second-eventsmenu{
+    background-color: darkkhaki;
+    border: solid 2px black;
+    width: 90%;
+    height: 10%;
+    display: flex;
+    font-size: 18px;
+    font-style: normal;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-event6-seconddk-eventsmenu{
+    width: 6%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event6-secondeventBox-eventsmenu{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event6-secondevent-eventsmenu{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event13-CardsBox-eventsmenu{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event13-yellowCardBox-eventsmenu{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event13-redCardBox-eventsmenu{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-event13-yellowCard-eventsmenu{
+    background-color: yellow;
+    width: 50%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event13-redCard-eventsmenu{
+    background-color: red;
+    width: 50%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event6-secondname-eventsmenu{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-mid-event13-nameSurnameEmpty-eventsmenu{
+    width: 4%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event6-secondsurname-eventsmenu{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-mid-event6-secondteam-eventsmenu{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event7-second-eventsmenu{
+    background-color: lightgoldenrodyellow;
+    border: solid 2px black;
+    width: 90%;
+    height: 10%;
+    display: flex;
+    font-size: 18px;
+    font-style: normal;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-event7-seconddk-eventsmenu{
+    width: 6%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event7-secondeventBox-eventsmenu{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event7-secondevent-eventsmenu{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event14-CardsBox-eventsmenu{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event14-yellowCardBox-eventsmenu{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event14-redCardBox-eventsmenu{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-mid-event14-yellowCard-eventsmenu{
+    background-color: yellow;
+    width: 50%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event14-redCard-eventsmenu{
+    background-color: red;
+    width: 50%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event7-secondname-eventsmenu{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-mid-event14-nameSurnameEmpty-eventsmenu{
+    width: 4%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-mid-event7-secondsurname-eventsmenu{
+    width: 16%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-mid-event7-secondteam-eventsmenu{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div-mid-team1-statisticsmenu{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    font-size: 21px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.div-team1-goalandscore-statisticsmenu{
+    background-color: lightgoldenrodyellow;
+    border: solid 2px black;
+    width: 90%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-team1-goal-statisticsmenu{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-team1-goalscore-statisticsmenu{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-team1-shootandscore-statisticsmenu{
+    background-color: darkkhaki;
+    border: solid 2px black;
+    width: 90%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-team1-shoot-statisticsmenu{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-team1-shootscore-statisticsmenu{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-team1-shootonandscore-statisticsmenu{
+    background-color: lightgoldenrodyellow;
+    border: solid 2px black;
+    width: 90%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-team1-shooton-statisticsmenu{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-team1-shootonscore-statisticsmenu{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-team1-ballandscore-statisticsmenu{
+    background-color: darkkhaki;
+    border: solid 2px black;
+    width: 90%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-team1-ball-statisticsmenu{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-team1-ballscore-statisticsmenu{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-team1-passrateandscore-statisticsmenu{
+    background-color: lightgoldenrodyellow;
+    border: solid 2px black;
+    width: 90%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-team1-passrate-statisticsmenu{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-team1-passratescore-statisticsmenu{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-team1-yellowcardandscore-statisticsmenu{
+    background-color: darkkhaki;
+    border: solid 2px black;
+    width: 90%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-team1-yellowcard-statisticsmenu{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-team1-yellowcardscore-statisticsmenu{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-team1-redcardandscore-statisticsmenu{
+    background-color: lightgoldenrodyellow;
+    border: solid 2px black;
+    width: 90%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-team1-redcard-statisticsmenu{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-team1-redcardscore-statisticsmenu{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-team1-cornerandscore-statisticsmenu{
+    background-color: darkkhaki;
+    border: solid 2px black;
+    width: 90%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-team1-corner-statisticsmenu{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-team1-cornerscore-statisticsmenu{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-team1-foulandscore-statisticsmenu{
+    background-color: lightgoldenrodyellow;
+    border: solid 2px black;
+    width: 90%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-team1-foul-statisticsmenu{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-team1-foulscore-statisticsmenu{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.div-mid-team2-statisticsmenu{
+    width: 50%;
+    height: 100%;
+    font-size: 21px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.div-team2-goalandscore-statisticsmenu{
+    background-color: lightgoldenrodyellow;
+    border: solid 2px black;
+    width: 90%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-team2-goal-statisticsmenu{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-team2-goalscore-statisticsmenu{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-team2-shootandscore-statisticsmenu{
+    background-color: darkkhaki;
+    border: solid 2px black;
+    width: 90%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-team2-shoot-statisticsmenu{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-team2-shootscore-statisticsmenu{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-team2-shootonandscore-statisticsmenu{
+    background-color: lightgoldenrodyellow;
+    border: solid 2px black;
+    width: 90%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-team2-shooton-statisticsmenu{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-team2-shootonscore-statisticsmenu{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-team2-ballandscore-statisticsmenu{
+    background-color: darkkhaki;
+    border: solid 2px black;
+    width: 90%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-team2-ball-statisticsmenu{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-team2-ballscore-statisticsmenu{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-team2-passrateandscore-statisticsmenu{
+    background-color: lightgoldenrodyellow;
+    border: solid 2px black;
+    width: 90%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-team2-passrate-statisticsmenu{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-team2-passratescore-statisticsmenu{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-team2-yellowcardandscore-statisticsmenu{
+    background-color: darkkhaki;
+    border: solid 2px black;
+    width: 90%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-team2-yellowcard-statisticsmenu{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-team2-yellowcardscore-statisticsmenu{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-team2-redcardandscore-statisticsmenu{
+    background-color: lightgoldenrodyellow;
+    border: solid 2px black;
+    width: 90%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-team2-redcard-statisticsmenu{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-team2-redcardscore-statisticsmenu{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-team2-cornerandscore-statisticsmenu{
+    background-color: darkkhaki;
+    border: solid 2px black;
+    width: 90%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-team2-corner-statisticsmenu{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-team2-cornerscore-statisticsmenu{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-team2-foulandscore-statisticsmenu{
+    background-color: lightgoldenrodyellow;
+    border: solid 2px black;
+    width: 90%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-team2-foul-statisticsmenu{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-team2-foulscore-statisticsmenu{
+    width: 15%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div-spiker-playmatchmenuplayers{
+    width: 100%;
+    height: 20%;
+    font-size: 30px;
+    font-style: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div-down-main-buttons-playmatchmenuplayers{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-down-main-button1-playmatchmenuplayers{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.div-down-main-button1-IsEventNow-playmatchmenuplayers{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    font-size: 21px;
+    font-style: italic;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-down-main-button2-playmatchmenuplayers{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.div-down-main-buttonEmpty-playmatchmenuplayers{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.div-down-main-button3-playmatchmenuplayers{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+
+
+
+
+
+
+.buttons-screen-playmatchmenuplayers{
+    width: 250px;
+    height: 60px;
+    background-color: darkblue;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+
+.buttons-screen-playmatchmenuplayers:hover{
+    background-color: lightgray;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: black;    
+}
+
+.buttons-main-playmatchmenuplayers{
+    width: 250px;
+    height: 60px;
+    background-color: green;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+  
+.buttons-main-playmatchmenuplayers:hover{
+    background-color: lightgray;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}

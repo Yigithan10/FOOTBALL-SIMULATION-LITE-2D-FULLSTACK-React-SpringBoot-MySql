@@ -1,0 +1,322 @@
+body, html{
+  width: 99%;
+  height: 99%;
+  display: flex;
+}
+
+.div-all-teamselect{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+  
+.div-left1-btn-teamselect{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.div-team1-teamselect{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-team1-up-teamselect{
+  width: 100%;
+  height: 30%;
+  font-size: 20px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.div-team1-mid-teamselect{
+  width: 100%;
+  height: 40%;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div-team1-down-teamselect{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.div-team1-down-atc-teamselect{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-team1-down-atctxt-teamselect{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.div-team1-down-atcnum-teamselect{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.div-team1-down-midtxt-teamselect{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-team1-down-midnum-teamselect{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-team1-down-deftxt-teamselect{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.div-team1-down-defnum1-teamselect{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.div-team1-down-mid-teamselect{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-team1-down-def-teamselect{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.div-right1-btn-teamselect{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-teamselect-buttons{
+    width: 20%;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-left2-btn-teamselect{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-team2-teamselect{
+    width: 20%;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-team2-up-teamselect{
+    width: 100%;
+    height: 30%;
+    font-size: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+  
+.div-team2-mid-teamselect{
+    width: 100%;
+    height: 40%;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.div-team2-down-teamselect{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.div-team2-down-atc-teamselect{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-team2-down-atctxt-teamselect{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.div-team2-down-atcnum-teamselect{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.div-team2-down-midtxt-teamselect{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-team2-down-midnum-teamselect{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-team2-down-deftxt-teamselect{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.div-team2-down-defnum-teamselect{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.div-team2-down-mid-teamselect{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-team2-down-def-teamselect{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-team1-down-defnum-teamselect{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.div-right2-btn-teamselect{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+
+.buttons-left-right-teamselect{
+    width: 80%;
+    height: 10%;
+    background-color: darkcyan;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.buttons-left-right-teamselect:hover{
+  background-color: lightgray;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 26px;
+  color: black;
+}
+
+
+.buttons-teamselect{
+    width: 200px;
+    height: 75px;
+    background-color: green;
+    border-radius: 10px;
+    margin: 20px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+  
+.buttons-teamselect:hover{
+    background-color: lightgray;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}

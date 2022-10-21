@@ -1,0 +1,6980 @@
+body, html{
+    width: 99%;
+    height: 99%;
+    display: flex;
+}
+
+.div-all-gameplanmenu{
+    width: 99%;
+    height: 99%;
+    flex-direction: column;
+}
+
+.div-gameplanmenu-disable{
+  pointer-events: none;
+  opacity: 0.25;
+}
+
+.div-player-gameplanmenu-disable{
+    pointer-events: none;
+    opacity: 0.7;
+  }
+    
+.div-up-gameplanmenu{
+    width: 100%;
+    height: 10%;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-formations-gameplanmenu{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.div-addition-gameplanmenu{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.div-positions-gameplanmenu{
+    width: 21%;
+    height: 100%;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-players-gameplanmenu{
+    width: 44%;
+    height: 100%;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-reytings-gameplanmenu{
+    width: 12%;
+    height: 100%;
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-energy-gameplanmenu{
+    width: 14%;
+    height: 100%;
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+.div-captainband-allbands{
+    color: lightslategray;
+    margin-left: 5px;
+    font-family: cursive;
+}
+
+
+
+
+
+
+
+
+.div-sub-players-dontchange{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.div-sub-players-gameplanmenu-playerchange{
+    width: 50%;
+    height: 90%;
+    color: white;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+.div-mid-gameplanmenu{
+    width: 100%;
+    height: 80%;
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-field-gameplanmenu-formation1{
+    background-image: url("../photo/arkaplan2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid 3px black;
+    width: 40%;
+    height: 90%;
+    font-size: 13px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-gk00-formation1{
+    width: 100%;
+    height: 13%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-gk00-obje-formation1{
+    width: 18%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-gk00-information-formation1{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-gk00-position-formation1{
+    background-color: darkslategrey;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-gk00-rating-formation1{
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-gk00-surname-formation1{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cbs-formation1{
+    width: 100%;
+    height: 13%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cb01-formation1{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-tactics-cb01-obje-formation1{
+    width: 50%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-cb01-information-formation1{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-cb01-position-formation1{
+    background-color: darkslategrey;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cb01-rating-formation1{
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cb01-surname-formation1{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-empty1-formation1{
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cb02-formation1{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-tactics-cb02-obje-formation1{
+    width: 50%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-cb02-information-formation1{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-cb02-position-formation1{
+    background-color: darkslategrey;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cb02-rating-formation1{
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cb02-surname-formation1{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.div-tactics-backs-formation1{
+    width: 100%;
+    height: 13%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-lb00-formation1{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.div-tactics-lb00-obje-formation1{
+    width: 60%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-lb00-information-formation1{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-lb00-position-formation1{
+    background-color: darkslategrey;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-lb00-rating-formation1{
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-lb00-surname-formation1{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-empty2-formation1{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-rb00-formation1{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.div-tactics-rb00-obje-formation1{
+    width: 60%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-rb00-information-formation1{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-rb00-position-formation1{
+    background-color: darkslategrey;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-rb00-rating-formation1{
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-rb00-surname-formation1{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-dm00-formation1{
+    width: 100%;
+    height: 13%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-dm00-obje-formation1{
+    width: 18%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-dm00-information-formation1{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-dm00-position-formation1{
+    background-color: darkslategrey;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-dm00-rating-formation1{
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-dm00-surname-formation1{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cms-formation1{
+    width: 100%;
+    height: 13%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-cm01-formation1{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.div-tactics-cm01-obje-formation1{
+    width: 45%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-cm01-information-formation1{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-cm01-position-formation1{
+    background-color: darkslategrey;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cm01-rating-formation1{
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cm01-surname-formation1{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-empty3-formation1{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cm02-formation1{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.div-tactics-cm02-obje-formation1{
+    width: 45%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-cm02-information-formation1{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-cm02-position-formation1{
+    background-color: darkslategrey;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cm02-rating-formation1{
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cm02-surname-formation1{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-wings-formation1{
+    width: 100%;
+    height: 13%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-rw00-formation1{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-rw00-obje-formation1{
+    width: 60%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-rw00-information-formation1{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-rw00-position-formation1{
+    background-color: darkslategrey;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-rw00-rating-formation1{
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-rw00-surname-formation1{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-empty4-formation1{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-lw00-formation1{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-lw00-obje-formation1{
+    width: 60%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-lw00-information-formation1{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-lw00-position-formation1{
+    background-color: darkslategrey;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-lw00-rating-formation1{
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-lw00-surname-formation1{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-st00-formation1{
+    width: 100%;
+    height: 13%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-st00-obje-formation1{
+    width: 18%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-st00-information-formation1{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-st00-position-formation1{
+    background-color: darkslategrey;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-st00-rating-formation1{
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-st00-surname-formation1{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div-field-gameplanmenu-formation2{
+    background-image: url("../photo/arkaplan2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid 3px black;
+    width: 40%;
+    height: 90%;
+    font-size: 13px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-gk00-formation2{
+    width: 100%;
+    height: 13%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-gk00-obje-formation2{
+    width: 18%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-gk00-information-formation2{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-gk00-position-formation2{
+    background-color: darkslategrey;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-gk00-rating-formation2{
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-gk00-surname-formation2{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cbs-formation2{
+    width: 100%;
+    height: 13%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cb01-formation2{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-tactics-cb01-obje-formation2{
+    width: 50%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-cb01-information-formation2{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-cb01-position-formation2{
+    background-color: darkslategrey;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cb01-rating-formation2{
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cb01-surname-formation2{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-empty1-formation2{
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.div-tactics-cb02-formation2{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-tactics-cb02-obje-formation2{
+    width: 50%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-cb02-information-formation2{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-cb02-position-formation2{
+    background-color: darkslategrey;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cb02-rating-formation2{
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cb02-surname-formation2{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.div-tactics-backs-formation2{
+    width: 100%;
+    height: 13%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-lb00-formation2{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.div-tactics-lb00-obje-formation2{
+    width: 60%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-lb00-information-formation2{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-lb00-position-formation2{
+    background-color: darkslategrey;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-lb00-rating-formation2{
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-lb00-surname-formation2{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-empty2-formation2{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.div-tactics-rb00-formation2{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.div-tactics-rb00-obje-formation2{
+    width: 60%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-rb00-information-formation2{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-rb00-position-formation2{
+    background-color: darkslategrey;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-rb00-rating-formation2{
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-rb00-surname-formation2{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-dm00-formation2{
+    width: 100%;
+    height: 13%;
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.div-tactics-dm00-obje-formation2{
+    width: 45%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-dm00-information-formation2{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-dm00-position-formation2{
+    background-color: darkslategrey;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-dm00-rating-formation2{
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-dm00-surname-formation2{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cms-formation2{
+    width: 100%;
+    height: 13%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-cm01-formation2{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.div-tactics-cm01-obje-formation2{
+    width: 45%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-cm01-information-formation2{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-cm01-position-formation2{
+    background-color: darkslategrey;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cm01-rating-formation2{
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cm01-surname-formation2{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-empty3-formation2{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cm02-formation2{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.div-tactics-cm02-obje-formation2{
+    width: 45%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-cm02-information-formation2{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-cm02-position-formation2{
+    background-color: darkslategrey;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cm02-rating-formation2{
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cm02-surname-formation2{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-wings-formation2{
+    width: 100%;
+    height: 13%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-rw00-formation2{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-rw00-obje-formation2{
+    width: 60%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-rw00-information-formation2{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-rw00-position-formation2{
+    background-color: darkslategrey;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-rw00-rating-formation2{
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-rw00-surname-formation2{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-empty4-formation2{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-lw00-formation2{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-lw00-obje-formation2{
+    width: 60%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-lw00-information-formation2{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-lw00-position-formation2{
+    background-color: darkslategrey;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-lw00-rating-formation2{
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-lw00-surname-formation2{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-st00-formation2{
+    width: 100%;
+    height: 13%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-st00-obje-formation2{
+    width: 18%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-st00-information-formation2{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-st00-position-formation2{
+    background-color: darkslategrey;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-st00-rating-formation2{
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-st00-surname-formation2{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div-field-gameplanmenu-formation3{
+    background-image: url("../photo/arkaplan2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid 3px black;
+    width: 40%;
+    height: 90%;
+    font-size: 13px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-gk00-formation3{
+    width: 100%;
+    height: 13%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-gk00-obje-formation3{
+    width: 18%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-gk00-information-formation3{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-gk00-position-formation3{
+    background-color: darkslategrey;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-gk00-rating-formation3{
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-gk00-surname-formation3{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cbs-formation3{
+    width: 100%;
+    height: 13%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cb01-formation3{
+    width: 35%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-tactics-cb01-obje-formation3{
+    width: 50%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-cb01-information-formation3{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-cb01-position-formation3{
+    background-color: darkslategrey;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cb01-rating-formation3{
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cb01-surname-formation3{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-empty1-formation3{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cb02-formation3{
+    width: 35%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-tactics-cb02-obje-formation3{
+    width: 50%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-cb02-information-formation3{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-cb02-position-formation3{
+    background-color: darkslategrey;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cb02-rating-formation3{
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cb02-surname-formation3{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.div-tactics-backs-formation3{
+    width: 100%;
+    height: 13%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-lb00-formation3{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-lb00-obje-formation3{
+    width: 60%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-lb00-information-formation3{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-lb00-position-formation3{
+    background-color: darkslategrey;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-lb00-rating-formation3{
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-lb00-surname-formation3{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-empty2-formation3{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-rb00-formation3{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-rb00-obje-formation3{
+    width: 60%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-rb00-information-formation3{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-rb00-position-formation3{
+    background-color: darkslategrey;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-rb00-rating-formation3{
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-rb00-surname-formation3{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-dm00-formation3{
+    width: 100%;
+    height: 13%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-dm00-obje-formation3{
+    width: 60%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-dm00-information-formation3{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-dm00-position-formation3{
+    background-color: darkslategrey;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-dm00-rating-formation3{
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-dm00-surname-formation3{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cms-formation3{
+    width: 100%;
+    height: 13%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-cm01-formation3{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.div-tactics-cm01-obje-formation3{
+    width: 45%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-cm01-information-formation3{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-cm01-position-formation3{
+    background-color: darkslategrey;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cm01-rating-formation3{
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cm01-surname-formation3{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-empty3-formation3{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cm02-formation3{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.div-tactics-cm02-obje-formation3{
+    width: 45%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-cm02-information-formation3{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-cm02-position-formation3{
+    background-color: darkslategrey;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cm02-rating-formation3{
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cm02-surname-formation3{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-wings-formation3{
+    width: 100%;
+    height: 13%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-rw00-formation3{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-rw00-obje-formation3{
+    width: 60%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-rw00-information-formation3{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-rw00-position-formation3{
+    background-color: darkslategrey;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-rw00-rating-formation3{
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-rw00-surname-formation3{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-empty4-formation3{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-lw00-formation3{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-lw00-obje-formation3{
+    width: 60%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-lw00-information-formation3{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-lw00-position-formation3{
+    background-color: darkslategrey;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-lw00-rating-formation3{
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-lw00-surname-formation3{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-st00-formation3{
+    width: 100%;
+    height: 13%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-st00-obje-formation3{
+    width: 18%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-st00-information-formation3{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-st00-position-formation3{
+    background-color: darkslategrey;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-st00-rating-formation3{
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-st00-surname-formation3{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div-field-gameplanmenu-formation4{
+    background-image: url("../photo/arkaplan2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid 3px black;
+    width: 40%;
+    height: 90%;
+    font-size: 13px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-gk00-formation4{
+    width: 100%;
+    height: 13%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-gk00-obje-formation4{
+    width: 18%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-gk00-information-formation4{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-gk00-position-formation4{
+    background-color: darkslategrey;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-gk00-rating-formation4{
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-gk00-surname-formation4{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cbs-formation4{
+    width: 100%;
+    height: 13%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cb01-formation4{
+    width: 35%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-tactics-cb01-obje-formation4{
+    width: 50%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-cb01-information-formation4{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-cb01-position-formation4{
+    background-color: darkslategrey;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cb01-rating-formation4{
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cb01-surname-formation4{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-empty1-formation4{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cb02-formation4{
+    width: 35%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-tactics-cb02-obje-formation4{
+    width: 50%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-cb02-information-formation4{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-cb02-position-formation4{
+    background-color: darkslategrey;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cb02-rating-formation4{
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cb02-surname-formation4{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.div-tactics-backs-formation4{
+    width: 100%;
+    height: 13%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-lb00-formation4{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-lb00-obje-formation4{
+    width: 60%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-lb00-information-formation4{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-lb00-position-formation4{
+    background-color: darkslategrey;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-lb00-rating-formation4{
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-lb00-surname-formation4{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-empty2-formation4{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-rb00-formation4{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-rb00-obje-formation4{
+    width: 60%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-rb00-information-formation4{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-rb00-position-formation4{
+    background-color: darkslategrey;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-rb00-rating-formation4{
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-rb00-surname-formation4{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-dm00-formation4{
+    width: 100%;
+    height: 13%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-dm00-obje-formation4{
+    width: 60%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-dm00-information-formation4{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-dm00-position-formation4{
+    background-color: darkslategrey;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-dm00-rating-formation4{
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-dm00-surname-formation4{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cms-formation4{
+    width: 100%;
+    height: 13%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-cm01-formation4{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.div-tactics-cm01-obje-formation4{
+    width: 45%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-cm01-information-formation4{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-cm01-position-formation4{
+    background-color: darkslategrey;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cm01-rating-formation4{
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cm01-surname-formation4{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-empty3-formation4{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cm02-formation4{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.div-tactics-cm02-obje-formation4{
+    width: 45%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-cm02-information-formation4{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-cm02-position-formation4{
+    background-color: darkslategrey;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cm02-rating-formation4{
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-cm02-surname-formation4{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-wings-formation4{
+    width: 100%;
+    height: 13%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-rw00-formation4{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-rw00-obje-formation4{
+    width: 60%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-rw00-information-formation4{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-rw00-position-formation4{
+    background-color: darkslategrey;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-rw00-rating-formation4{
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-rw00-surname-formation4{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-empty4-formation4{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-lw00-formation4{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-lw00-obje-formation4{
+    width: 60%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-lw00-information-formation4{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-lw00-position-formation4{
+    background-color: darkslategrey;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-lw00-rating-formation4{
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-lw00-surname-formation4{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-st00-formation4{
+    width: 100%;
+    height: 13%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-st00-obje-formation4{
+    width: 18%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-tactics-st00-information-formation4{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-tactics-st00-position-formation4{
+    background-color: darkslategrey;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-st00-rating-formation4{
+    background-color: darkcyan;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-tactics-st00-surname-formation4{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div-empty{
+    width: 15%;
+    height: 90%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+.div-sub-players-gameplanmenu{
+    width: 50%;
+    height: 90%;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.div-txt-gk{
+    background-color: goldenrod;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player1{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-sub-player1:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-sub-player1-click{
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player1-position{
+    width: 22%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player1-name{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-sub-player1-empty-namesurname{
+    width: 7%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player1-surname{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-sub-player1-reyting{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player1-energy{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player2{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-sub-player2:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-sub-player2-click{
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player2-position{
+    width: 22%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player2-name{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-sub-player2-empty-namesurname{
+    width: 7%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player2-surname{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-sub-player2-reyting{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player2-energy{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-txt-lb{
+    background-color: goldenrod;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player3-click{
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player3{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-sub-player3:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-sub-player3-position{
+    width: 22%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player3-name{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-sub-player3-empty-namesurname{
+    width: 7%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player3-surname{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-sub-player3-reyting{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player3-energy{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player4{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-sub-player4:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-sub-player4-click{
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player4-position{
+    width: 22%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player4-name{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-sub-player4-empty-namesurname{
+    width: 7%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player4-surname{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-sub-player4-reyting{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player4-energy{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-txt-cb1{
+    background-color: goldenrod;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player5{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-sub-player5:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-sub-player5-click{
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player5-position{
+    width: 22%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player5-name{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-sub-player5-empty-namesurname{
+    width: 7%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player5-surname{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-sub-player5-reyting{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player5-energy{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player6{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-sub-player6:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-sub-player6-click{
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player6-position{
+    width: 22%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player6-name{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-sub-player6-empty-namesurname{
+    width: 7%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player6-surname{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-sub-player6-reyting{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player6-energy{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player7{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-sub-player7:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-sub-player7-click{
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player7-position{
+    width: 22%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player7-name{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-sub-player7-empty-namesurname{
+    width: 7%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player7-surname{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-sub-player7-reyting{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player7-energy{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player8{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-sub-player8:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-sub-player8-click{
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player8-position{
+    width: 22%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player8-name{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-sub-player8-empty-namesurname{
+    width: 7%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player8-surname{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-sub-player8-reyting{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player8-energy{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-txt-cb2{
+    background-color: goldenrod;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player9{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-sub-player9:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-sub-player9-click{
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player9-position{
+    width: 22%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player9-name{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-sub-player9-empty-namesurname{
+    width: 7%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player9-surname{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-sub-player9-reyting{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player9-energy{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player10{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-sub-player10:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-sub-player10-click{
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player10-position{
+    width: 22%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player10-name{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-sub-player10-empty-namesurname{
+    width: 7%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player10-surname{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-sub-player10-reyting{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player10-energy{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player11{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-sub-player11:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-sub-player11-click{
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player11-position{
+    width: 22%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player11-name{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-sub-player11-empty-namesurname{
+    width: 7%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player11-surname{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-sub-player11-reyting{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player11-energy{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player12{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-sub-player12:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-sub-player12-click{
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player12-position{
+    width: 22%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player12-name{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-sub-player12-empty-namesurname{
+    width: 7%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player12-surname{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-sub-player12-reyting{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player12-energy{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-txt-rb{
+    background-color: goldenrod;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player13-click{
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player13{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-sub-player13:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-sub-player13-position{
+    width: 22%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player13-name{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-sub-player13-empty-namesurname{
+    width: 7%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player13-surname{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-sub-player13-reyting{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player13-energy{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player14-click{
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player14{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-sub-player14:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-sub-player14-position{
+    width: 22%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player14-name{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-sub-player14-empty-namesurname{
+    width: 7%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player14-surname{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-sub-player14-reyting{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player14-energy{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-txt-dm{
+    background-color: goldenrod;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player15{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-sub-player15:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-sub-player15-click{
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player15-position{
+    width: 22%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player15-name{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-sub-player15-empty-namesurname{
+    width: 7%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player15-surname{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-sub-player15-reyting{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player15-energy{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player16{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-sub-player16:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-sub-player16-click{
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player16-position{
+    width: 22%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player16-name{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-sub-player16-empty-namesurname{
+    width: 7%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player16-surname{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-sub-player16-reyting{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player16-energy{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-txt-cm1{
+    background-color: goldenrod;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player17{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-sub-player17:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-sub-player17-click{
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player17-position{
+    width: 22%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player17-name{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-sub-player17-empty-namesurname{
+    width: 7%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player17-surname{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-sub-player17-reyting{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player17-energy{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player18{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-sub-player18:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-sub-player18-click{
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player18-position{
+    width: 22%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player18-name{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-sub-player18-empty-namesurname{
+    width: 7%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player18-surname{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-sub-player18-reyting{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player18-energy{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player19{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-sub-player19:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-sub-player19-click{
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player19-position{
+    width: 22%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player19-name{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-sub-player19-empty-namesurname{
+    width: 7%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player19-surname{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-sub-player19-reyting{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player19-energy{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player20{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-sub-player20:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-sub-player20-click{
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player20-position{
+    width: 22%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player20-name{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-sub-player20-empty-namesurname{
+    width: 7%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player20-surname{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-sub-player20-reyting{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player20-energy{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player21{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-sub-player21:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-sub-player21-click{
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player21-position{
+    width: 22%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player21-name{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-sub-player21-empty-namesurname{
+    width: 7%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player21-surname{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-sub-player21-reyting{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player21-energy{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-txt-cm2{
+    background-color: goldenrod;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player22{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-sub-player22:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-sub-player22-click{
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player22-position{
+    width: 22%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player22-name{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-sub-player22-empty-namesurname{
+    width: 7%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player22-surname{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-sub-player22-reyting{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player22-energy{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player23{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-sub-player23:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-sub-player23-click{
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player23-position{
+    width: 22%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player23-name{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-sub-player23-empty-namesurname{
+    width: 7%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player23-surname{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-sub-player23-reyting{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player23-energy{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player24{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-sub-player24:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-sub-player24-click{
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player24-position{
+    width: 22%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player24-name{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-sub-player24-empty-namesurname{
+    width: 7%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player24-surname{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-sub-player24-reyting{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player24-energy{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player25{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-sub-player25:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-sub-player25-click{
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player25-position{
+    width: 22%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player25-name{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-sub-player25-empty-namesurname{
+    width: 7%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player25-surname{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-sub-player25-reyting{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player25-energy{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player26{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-sub-player26:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-sub-player26-click{
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player26-position{
+    width: 22%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player26-name{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-sub-player26-empty-namesurname{
+    width: 7%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player26-surname{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-sub-player26-reyting{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player26-energy{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-txt-lw{
+    background-color: goldenrod;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player27{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-sub-player27:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-sub-player27-click{
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player27-position{
+    width: 22%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player27-name{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-sub-player27-empty-namesurname{
+    width: 7%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player27-surname{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-sub-player27-reyting{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player27-energy{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player28{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-sub-player28:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-sub-player28-click{
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player28-position{
+    width: 22%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player28-name{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-sub-player28-empty-namesurname{
+    width: 7%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player28-surname{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-sub-player28-reyting{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player28-energy{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player29{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-sub-player29:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-sub-player29-click{
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player29-position{
+    width: 22%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player29-name{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-sub-player29-empty-namesurname{
+    width: 7%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player29-surname{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-sub-player29-reyting{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player29-energy{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player30{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-sub-player30:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-sub-player30-click{
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player30-position{
+    width: 22%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player30-name{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-sub-player30-empty-namesurname{
+    width: 7%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player30-surname{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-sub-player30-reyting{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player30-energy{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-txt-rw{
+    background-color: goldenrod;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player31{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-sub-player31:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-sub-player31-click{
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player31-position{
+    width: 22%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player31-name{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-sub-player31-empty-namesurname{
+    width: 7%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player31-surname{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-sub-player31-reyting{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player31-energy{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player32{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-sub-player32:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-sub-player32-click{
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player32-position{
+    width: 22%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player32-name{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-sub-player32-empty-namesurname{
+    width: 7%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player32-surname{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-sub-player32-reyting{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player32-energy{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player33{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-sub-player33:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-sub-player33-click{
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player33-position{
+    width: 22%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player33-name{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-sub-player33-empty-namesurname{
+    width: 7%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player33-surname{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-sub-player33-reyting{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player33-energy{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player34{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-sub-player34:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-sub-player34-click{
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player34-position{
+    width: 22%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player34-name{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-sub-player34-empty-namesurname{
+    width: 7%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player34-surname{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-sub-player34-reyting{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player34-energy{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-txt-st{
+    background-color: goldenrod;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player35{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-sub-player35:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-sub-player35-click{
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player35-position{
+    width: 22%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player35-name{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-sub-player35-empty-namesurname{
+    width: 7%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player35-surname{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-sub-player35-reyting{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player35-energy{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player36{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-sub-player36:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-sub-player36-click{
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player36-position{
+    width: 22%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player36-name{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-sub-player36-empty-namesurname{
+    width: 7%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player36-surname{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-sub-player36-reyting{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player36-energy{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player37{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-sub-player37:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-sub-player37-click{
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player37-position{
+    width: 22%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player37-name{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-sub-player37-empty-namesurname{
+    width: 7%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player37-surname{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-sub-player37-reyting{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player37-energy{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player38{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.3s;
+}
+
+.div-sub-player38:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.div-sub-player38-click{
+    width: 5%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player38-position{
+    width: 22%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player38-name{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.div-sub-player38-empty-namesurname{
+    width: 7%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player38-surname{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div-sub-player38-reyting{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player38-energy{
+    width: 13%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div-sub-player1-disabled{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player2-disabled{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player3-disabled{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player4-disabled{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player5-disabled{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player6-disabled{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player7-disabled{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player8-disabled{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player9-disabled{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player10-disabled{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player11-disabled{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player12-disabled{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player13-disabled{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player14-disabled{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player15-disabled{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player16-disabled{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player17-disabled{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player18-disabled{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player19-disabled{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player20-disabled{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player21-disabled{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player22-disabled{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player23-disabled{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player24-disabled{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player25-disabled{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player26-disabled{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player27-disabled{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player28-disabled{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player29-disabled{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player30-disabled{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player31-disabled{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player32-disabled{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player33-disabled{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player34-disabled{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player35-disabled{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player36-disabled{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player37-disabled{
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sub-player38-disabled{
+    background-color: darkkhaki;
+    border: solid 1px black;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div-down-gameplanmenu{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.div-left-btn-gameplanmenu{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.div-mid-playerchange-gameplanmenu{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.div-right-btn-gameplanmenu{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+
+
+.buttons-formations-gameplanmenu{
+    width: 115px;
+    height: 80%;
+    background-color: darkcyan;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.buttons-formations-gameplanmenu:hover{
+  background-color: lightgray;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 26px;
+  color: black;
+}
+
+
+
+.buttons-gameplanmenu{
+    width: 300px;
+    height: 50px;
+    background-color: green;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+    
+.buttons-gameplanmenu:hover{
+    background-color: lightgray;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
